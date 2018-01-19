@@ -1,23 +1,19 @@
 .container{
   padding: 300px;
 }
-
 body{
 
-  background: #74ebd5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
   font-family: 'Roboto', sans-serif;
 }
-
 
 h1{
   font-size: 55px;
   text-align: center;
-}
-
-.btn{
-  text-align: center;
+  border-bottom: 1.5px solid #3E4447;
+  margin-bottom: 20px;
 }
 
 .result{
@@ -28,4 +24,9 @@ h1{
 
   font-weight: bold;
   font-size: 20px;
+}
+
+.well{
+  border: 1px solid #3E4447;
+
 }

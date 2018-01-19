@@ -17,8 +17,8 @@ $(document).ready(function() {
         for (var i = 0; i < newNumber.length; i++) {
           newArray.push(" Boop");
         }
-      }else if (newNumber.includes("2") || newNumber.includes("3") || newNumber.includes("4") || newNumber.includes("5")
-             || newNumber.includes("6") || newNumber.includes("7") || newNumber.includes("8") || newNumber.includes("9")){
+      } else if (newNumber.includes("2") || newNumber.includes("3") || newNumber.includes("4") || newNumber.includes("5") ||
+        newNumber.includes("6") || newNumber.includes("7") || newNumber.includes("8") || newNumber.includes("9")) {
         for (var i = 0; i < newNumber.length; i++) {
           newArray.push(newNumber[i] + " ");
         }
